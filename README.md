@@ -1,0 +1,3 @@
+# Unexpected Behavior When Directly Assigning to Instance Variables in Ruby
+
+This example demonstrates an uncommon error in Ruby related to assigning values to instance variables.  Direct assignment to instance variables outside of the class's methods might not behave as expected. This can lead to bugs where changes are not reflected unless the instance variable's setter method is used.  The solution showcases how to utilize accessor methods to maintain a consistent and predictable state.
